@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>夜鸦 Trading agent</title>
+  <defs>
+    <linearGradient id="frame" x1="8" y1="6" x2="57" y2="62" gradientUnits="userSpaceOnUse"><stop stop-color="#466778"/><stop offset="1" stop-color="#172633"/></linearGradient>
+    <linearGradient id="plumage" x1="15" y1="21" x2="44" y2="47" gradientUnits="userSpaceOnUse"><stop stop-color="#d0f3f3"/><stop offset=".5" stop-color="#8bcbd4"/><stop offset="1" stop-color="#527b92"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="62" height="62" rx="15" fill="#101d29" stroke="url(#frame)" stroke-width="2"/>
+  <path d="M9 45 17 28 30 19 36 22 40 17 47 21 50 25 58 29 48 31 46 39 36 47 22 48 11 55 16 43Z" fill="url(#plumage)"/>
+  <path d="m17 28 13-9 6 3-7 8-10 12-3 1Z" fill="#c4e8eb" fill-opacity=".38"/>
+  <path d="m19 43 9-10 7 3 9-9-5 14-12 6Z" fill="#17313f"/>
+  <path d="m21 40 7-7 7 3 8-9" stroke="#9ee3e5" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="44" cy="25" r="1.8" fill="#edb575"/>
+  <path d="M8 19v-4a7 7 0 0 1 7-7h4M45 56h4a7 7 0 0 0 7-7v-4" stroke="#84c9d3" stroke-opacity=".5" stroke-linecap="round"/>
+</svg>
