@@ -14,7 +14,7 @@
   · <a href="USAGE.md">使用说明与合作</a>
 </p>
 
-<p align="center"><code>Windows x64</code> · <code>v2.0.32</code> · <code>本机运行</code> · <code>单 EXE 安装分发</code></p>
+<p align="center"><code>Windows x64</code> · <code>v2.0.33</code> · <code>本机运行</code> · <code>单 EXE 安装分发</code></p>
 
 ---
 
@@ -41,31 +41,33 @@
 
 ## 几分钟开始第一次研究
 
-1. **下载安装**：前往 [公开 Release](https://github.com/JefferyCYH/NIGHT-CROWS-TRADING-RELEASES/releases/tag/v2.0.32)，只下载 `NightCrows-Setup-2.0.32-win-x64.exe`。
+1. **下载安装**：前往 [公开 Release](https://github.com/JefferyCYH/NIGHT-CROWS-TRADING-RELEASES/releases/tag/v2.0.33)，只下载 `NightCrows-Setup-2.0.33-win-x64.exe`。
 2. **手动启动**：选择自己可写的目录安装，完成后打开该目录中的 `aquant.exe`。
 3. **建立研究环境**：设置本机账号，快速新建 Agent，配置自己的模型服务或选择固定因子研究，再设置股票池、预算和风险限制。
 4. **先研究，再模拟**：核对研究与验证状态；符合准入条件后，由你确认启动模拟。
 
 > 安装器不会自动启动程序或交易。模型配置、网络可用性和数据质量会影响相关功能；缺少模型、研究失败或未通过准入时，不会自动启动模拟交易。可选深度学习不包含完整训练环境，详见 [使用指南](GUIDE.md)。
 
-### 当前版本 · 2.0.32
+### 当前版本 · 2.0.33
+
+- 数据健康矩阵刷新或重排后，已展开的能力详情保持展开。
 
 - 减少后台开销：隐藏时暂停工作区时钟、跳过新的 Agent 快照读取；恢复时立即更新时间。未证实整机提速或内存下降。
 
 - 登录前可运行无账号只读演示；登录后可从左栏进入市场分区、检查数据健康和决策证据。
 - 候选证据卡区分观察、资格、已记录晋级和未经核实的启用状态。
-- 后台按阈值收缩遥测数据库；隔离样本从约 16.6 MiB 降至 152 KiB，未证实启动提速。上班模式继续保留。
+- 启动时清理过期诊断记录并回收空间；隔离测试数据库从约 16 MiB 缩至 24 KiB，未验证长期写入表现。上班模式继续保留。
 - 对外以**一个 Windows 安装 EXE**交付，内含主程序和配套研究、报价组件。
 - 升级使用完整安装包，选择原安装目录可保留配置与用户数据；升级前请备份并退出相关进程。
 
-[查看完整更新](CHANGELOG.md) · [直接下载安装 EXE](https://github.com/JefferyCYH/NIGHT-CROWS-TRADING-RELEASES/releases/download/v2.0.32/NightCrows-Setup-2.0.32-win-x64.exe)
+[查看完整更新](CHANGELOG.md) · [直接下载安装 EXE](https://github.com/JefferyCYH/NIGHT-CROWS-TRADING-RELEASES/releases/download/v2.0.33/NightCrows-Setup-2.0.33-win-x64.exe)
 
 ## 下载与安全边界
 
 | 项目 | 说明 |
 | :--- | :--- |
 | 平台 | Windows x64；其他平台暂无安装包 |
-| 安装包 | `NightCrows-Setup-2.0.32-win-x64.exe` · 67.13 MiB |
+| 安装包 | `NightCrows-Setup-2.0.33-win-x64.exe` · 67.13 MiB |
 | 发布签名 | 当前未进行发布者代码签名，可能出现未知发布者提示；请核对来源与哈希，不要关闭安全防护 |
 | 源码 | 本仓库仅存放公开介绍、使用说明和展示素材；**应用源码不公开** |
 | 升级 | 使用完整 EXE；不支持源码 ZIP 补丁，不要混装旧运行组件 |
@@ -73,7 +75,7 @@
 **SHA-256**
 
 ```text
-5e4320e2dd7dfcdf92ac95c83d00e80232cf2b53fb80e7b9b5e96c3990dba5a3
+77e5e8b387e7eb8c6ce335e2df47b2b2e5da9ecaa2b92c72af4ca0c9cdf562e7
 ```
 
 “单 EXE”指下载和分发的安装文件，安装后仍有运行库目录。减少可读 Python 源码暴露不等于防逆向：字节码仍可能被反编译，前端资源仍可阅读。
@@ -115,7 +117,7 @@ flowchart LR
 - **当前日线检查覆盖什么？** 「沪深指数成交额」只核对两个指数最近五个共同完整交易日的样本，不代表个股日线覆盖。复权、分钟、五档和财务尚无已验证样本，不能从指数结果推断这些能力。
 - **为什么数据健康显示未知？** 尚无可核验的来源、时间或覆盖样本时会显示未知。它不是零覆盖，也不是交易许可。
 - **哪里能看到连板和概念行情？** 左栏入口当前直达覆盖提示，说明数据边界，不是新增的实时榜单。
-- **如何校验下载文件？** 在下载目录运行 `Get-FileHash .\NightCrows-Setup-2.0.32-win-x64.exe -Algorithm SHA256`，与同一 Release 说明中的 SHA-256 比对。校验和验证文件一致性，不替代数字签名。
+- **如何校验下载文件？** 在下载目录运行 `Get-FileHash .\NightCrows-Setup-2.0.33-win-x64.exe -Algorithm SHA256`，与同一 Release 说明中的 SHA-256 比对。校验和验证文件一致性，不替代数字签名。
 - **升级时哪些操作更稳妥？** 先退出托盘进程并备份工作区。遇到占用提示先正常退出再重试，不手动覆盖安装目录中的 DLL。
 
 ### 开放能力
