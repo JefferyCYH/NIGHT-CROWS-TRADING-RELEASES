@@ -4,10 +4,10 @@
 
 ## 1. 下载与文件核对
 
-当前版本：**2.0.30 / Windows x64**。Release 中唯一的正式安装附件为：
+当前版本：**2.0.31 / Windows x64**。Release 中唯一的正式安装附件为：
 
 ```text
-NightCrows-Setup-2.0.30-win-x64.exe
+NightCrows-Setup-2.0.31-win-x64.exe
 ```
 
 从本仓库的 Release 下载，不要用来历不明的改包。GitHub 自动显示的 **Source code (zip / tar.gz)** 只是本公开资料仓库的介绍和展示素材，不是软件安装包，也不是应用源码。
@@ -15,13 +15,13 @@ NightCrows-Setup-2.0.30-win-x64.exe
 SHA-256：
 
 ```text
-c8425593a60971a5a28d172dbe14444f053fed80c29f979aab229f0712bc8aa7
+adf9612b11750451964cb4b25c1c541f97786ea3607b4fa77408e13e8af11a3a
 ```
 
 下载后可在 PowerShell 核对（替换为实际下载位置）：
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath 'D:\Downloads\NightCrows-Setup-2.0.30-win-x64.exe'
+Get-FileHash -Algorithm SHA256 -LiteralPath 'D:\Downloads\NightCrows-Setup-2.0.31-win-x64.exe'
 ```
 
 当前安装器未签名。校验和用于核对文件一致性，不等同于发布者身份认证；遇到安全警告时先确认下载渠道，不要直接关闭安全防护。
