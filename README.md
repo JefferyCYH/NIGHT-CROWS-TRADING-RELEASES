@@ -14,7 +14,7 @@
   · <a href="USAGE.md">使用说明与合作</a>
 </p>
 
-<p align="center"><code>Windows x64</code> · <code>v2.0.29</code> · <code>本机运行</code> · <code>单 EXE 安装分发</code></p>
+<p align="center"><code>Windows x64</code> · <code>v2.0.30</code> · <code>本机运行</code> · <code>单 EXE 安装分发</code></p>
 
 ---
 
