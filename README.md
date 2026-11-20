@@ -14,7 +14,7 @@
   · <a href="USAGE.md">使用说明与合作</a>
 </p>
 
-<p align="center"><code>Windows x64</code> · <code>v2.0.21</code> · <code>本机运行</code> · <code>单 EXE 安装分发</code></p>
+<p align="center"><code>Windows x64</code> · <code>v2.0.28</code> · <code>本机运行</code> · <code>单 EXE 安装分发</code></p>
 
 ---
 
@@ -41,27 +41,27 @@
 
 ## 几分钟开始第一次研究
 
-1. **下载安装**：前往 [公开 Release](https://github.com/JefferyCYH/NIGHT-CROWS-TRADING-RELEASES/releases/tag/v2.0.21)，只下载 `NightCrows-Setup-2.0.21-win-x64.exe`。
+1. **下载安装**：前往 [公开 Release](https://github.com/JefferyCYH/NIGHT-CROWS-TRADING-RELEASES/releases/tag/v2.0.28)，只下载 `NightCrows-Setup-2.0.28-win-x64.exe`。
 2. **手动启动**：选择自己可写的目录安装，完成后打开该目录中的 `aquant.exe`。
 3. **建立研究环境**：设置本机账号，快速新建 Agent，配置自己的模型服务或选择固定因子研究，再设置股票池、预算和风险限制。
 4. **先研究，再模拟**：核对研究与验证状态；符合准入条件后，由你确认启动模拟。
 
 > 安装器不会自动启动程序或交易。模型配置、网络可用性和数据质量会影响相关功能；缺少模型、研究失败或未通过准入时，不会自动启动模拟交易。可选深度学习不包含完整训练环境，详见 [使用指南](GUIDE.md)。
 
-### 当前版本 · 2.0.21
+### 当前版本 · 2.0.28
 
 - 新增可切换的上班模式，原版界面默认保留；在上班模式左下角齿轮中切回原版。
 - 对外以**一个 Windows 安装 EXE**交付，内含主程序和配套研究、报价组件。
 - 升级使用完整安装包，选择原安装目录可保留配置与用户数据；升级前请备份并退出相关进程。
 
-[查看完整更新](CHANGELOG.md) · [直接下载安装 EXE](https://github.com/JefferyCYH/NIGHT-CROWS-TRADING-RELEASES/releases/download/v2.0.21/NightCrows-Setup-2.0.21-win-x64.exe)
+[查看完整更新](CHANGELOG.md) · [直接下载安装 EXE](https://github.com/JefferyCYH/NIGHT-CROWS-TRADING-RELEASES/releases/download/v2.0.28/NightCrows-Setup-2.0.28-win-x64.exe)
 
 ## 下载与安全边界
 
 | 项目 | 说明 |
 | :--- | :--- |
 | 平台 | Windows x64；其他平台暂无安装包 |
-| 安装包 | `NightCrows-Setup-2.0.21-win-x64.exe` · 105.72 MiB |
+| 安装包 | `NightCrows-Setup-2.0.28-win-x64.exe` · 67.13 MiB |
 | 发布签名 | 当前未进行发布者代码签名，可能出现未知发布者提示；请核对来源与哈希，不要关闭安全防护 |
 | 源码 | 本仓库仅存放公开介绍、使用说明和展示素材；**应用源码不公开** |
 | 升级 | 使用完整 EXE；不支持源码 ZIP 补丁，不要混装旧运行组件 |
@@ -69,14 +69,14 @@
 **SHA-256**
 
 ```text
-b72c6fce0351c7452bddc033f990e1c6df44bf67501e8ce472d0d02cdb4c6f22
+349a024e435df47e48c7b9b1b3397f6c7b375b4e30751b4b00b48b8c78b824bf
 ```
 
 “单 EXE”指下载和分发的安装文件，安装后仍有运行库目录。减少可读 Python 源码暴露不等于防逆向：字节码仍可能被反编译，前端资源仍可阅读。
 
-## v2.0.28 功能预览
+## v2.0.28 新功能
 
-> 这是尚未公开发布的候选功能。当前下载仍以发布页为准；下面的操作和校验文件适用于 v2.0.28 发布后。
+> v2.0.28 已公开发布；安装包和 SHA256SUMS.txt 已通过匿名下载校验。
 
 ### 从哪里开始
 
@@ -101,7 +101,7 @@ flowchart LR
 | 排查为什么没有模拟交易 | 指挥台 → 选模拟账户 → 今天为什么没交易 → 读取证据 | 未采集、已采集但为零、存在模拟意图是不同状态；没有券商证据时不能判断是否提交 |
 | 看候选模型是否值得继续观察 | 模拟交易 → 候选对照 → 核对比较组、观察期、收益差、回撤及样本门槛 | 门槛通过、已记录晋级、已启用是不同状态，不能用一个指标代替 |
 
-### 桌面候选包验证
+### 桌面安装包验证
 
 - 左侧「涨跌停」「行业」「覆盖」会聚焦并滚动到对应分区。隔离 WebView 中，1,200 次脚本跳转均在下一动画帧观察到标题进入视口；这不是实际画面呈现延迟。
 - 当前对照未证明整体提速、内存降低或磁盘节省。安装、升级和数据保留范围见[使用指南](GUIDE.md)。
