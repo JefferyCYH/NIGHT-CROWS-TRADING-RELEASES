@@ -97,7 +97,7 @@ b72c6fce0351c7452bddc033f990e1c6df44bf67501e8ce472d0d02cdb4c6f22
 
 本机 HTTP v1 证据接口需登录，提供 `decisions`、`data-health`、`candidate-progress` 和 `replay-report` 四个只读资源，路径前缀 `/api/v1/evidence/`。请勿将工作区会话交给第三方或暴露本机端口。
 
-独立 stdio MCP 在源码侧验证了 `decisions`、`candidate_progress`、`replay_report` 和 `data_health`。其中 `data_health` 只读取显式配置的已保存快照，不实时连接桌面；没有快照时不推断能力。MCP 不提供交易写入，不随 Windows 安装器作为独立程序分发。源码侧示例分别演示读取指数源、查询已保存决策、对照候选。公开安装包不等于开放内部源码或附带开发运行环境。
+独立 stdio MCP 在源码侧验证了 `decisions`、`candidate_progress`、`replay_report` 和 `data_health`。其中 `data_health` 只读取显式配置的已保存快照，不实时连接桌面；没有快照时不推断能力。MCP 不提供交易写入，不随 Windows 安装器作为独立程序分发。源码侧三个可运行示例分别演示读取指数源、查询已保存决策、对照候选。指数示例默认使用固定 mock，显式选择实时模式才访问东方财富公开接口，两种输出均仅供展示。后两个示例使用隔离数据副本，不修改账本或提交审批。公开安装包不等于开放内部源码或附带开发运行环境。
 
 ## 研究边界与反馈
 
