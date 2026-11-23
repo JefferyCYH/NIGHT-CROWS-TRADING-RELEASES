@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="142" viewBox="0 0 1120 142" role="img" aria-labelledby="title desc">
+  <title id="title">Night Crows · 观察脉冲，验证假设，复盘冻结证据</title>
+  <desc id="desc">夜鸦页脚徽章：仅供学习与量化方法研究，非商用，合作微信 JefferyCYH。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1120" y2="142" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.5" stop-color="#171432"/>
+      <stop offset="1" stop-color="#26143c"/>
+    </linearGradient>
+    <linearGradient id="rail" x1="30" y1="0" x2="1090" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#34f5c5"/>
+      <stop offset="0.33" stop-color="#38bdf8"/>
+      <stop offset="0.66" stop-color="#c084fc"/>
+      <stop offset="1" stop-color="#fbbf24"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1118" height="140" rx="20" fill="url(#bg)" stroke="#6d569e" stroke-opacity="0.72" stroke-width="1.6"/>
+  <path d="M28 2H1092" stroke="url(#rail)" stroke-width="2.4"/>
+  <rect x="34" y="30" width="76" height="82" rx="18" fill="#21163b" stroke="#c084fc" stroke-opacity="0.75" stroke-width="1.5"/>
+  <g transform="translate(46 45) scale(2.1667)" fill="none" stroke="#e9d5ff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19l4-6 4-4 5-3 3 2-3 2-2 4-4 3-3 1-4 1zm11-9h.01"/><path d="M8 13l-3 2 2-5 5-4 4-1"/></g>
+  <text x="132" y="58" font-family="Bahnschrift, 'Trebuchet MS', 'Segoe UI', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="1.2" fill="#f8fafc">NIGHT CROWS · 夜鸦量化研究工作台</text>
+  <text x="132" y="86" font-family="Georgia, 'Songti SC', 'STSong', 'SimSun', serif" font-size="16.5" font-style="italic" fill="#e9d5ff">“把一笔异动变成可反驳的研究假设，把每一次交易与不交易留在冻结证据里。”</text>
+  <text x="132" y="112" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="12" font-weight="700" fill="#34f5c5">PUBLIC v2.0.33  ·  STUDY &amp; RESEARCH ONLY  ·  NON-COMMERCIAL  ·  WECHAT: JefferyCYH</text>
+</svg>

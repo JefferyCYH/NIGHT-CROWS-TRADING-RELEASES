@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="342" viewBox="0 0 1120 342" role="img" aria-labelledby="title desc">
+  <title id="title">夜鸦性能专项、存储治理与验收实测看板</title>
+  <desc id="desc">信号计算、流式内存、无损归档、遥测轮转与打包桌面 ABBA 实测证据及边界。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1120" y2="342" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.52" stop-color="#13142b"/>
+      <stop offset="1" stop-color="#221538"/>
+    </linearGradient>
+    <linearGradient id="rail" x1="30" y1="0" x2="1090" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#34f5c5"/>
+      <stop offset="0.3" stop-color="#38bdf8"/>
+      <stop offset="0.62" stop-color="#c084fc"/>
+      <stop offset="0.84" stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#fb7185"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#a78bfa" stroke-opacity="0.1"/>
+    </pattern>
+  </defs>
+  <rect x="1" y="1" width="1118" height="340" rx="20" fill="url(#bg)" stroke="#6d569e" stroke-opacity="0.7" stroke-width="1.6"/>
+  <rect x="2" y="2" width="1116" height="338" rx="19" fill="url(#grid)" opacity="0.85"/>
+  <path d="M28 2H1092" stroke="url(#rail)" stroke-width="2.4"/>
+  <text x="34" y="38" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="13" font-weight="700" letter-spacing="1.5" fill="#cbd5e1">NIGHT CROWS  /  BENCHMARK &amp; VERIFICATION LEDGER</text>
+  <rect x="892" y="20" width="194" height="24" rx="12" fill="#0f2926" stroke="#34f5c5" stroke-opacity="0.75"/>
+  <text x="989.0" y="36" text-anchor="middle" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="11" font-weight="700" letter-spacing="0.8" fill="#a7f3d0">MEASURED · NO OVERCLAIM</text>
+  <rect x="34" y="58" width="336" height="264" rx="15" fill="#0f2438" fill-opacity="0.82" stroke="#38bdf8" stroke-opacity="0.72" stroke-width="1.6"/>
+  <g transform="translate(49 72) scale(1.0)" fill="none" stroke="#38bdf8" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M13 3L5.5 13.2h5.5L10 21l8.5-10.5H13L13 3z"/></g>
+  <text x="80" y="90" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="16.5" font-weight="800" fill="#f8fafc">计算热点与流式内存</text>
+  <text x="80" y="108" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="11" font-weight="700" fill="#38bdf8">源码与真实归档实测</text>
+  <rect x="47" y="124" width="310" height="55" rx="9" fill="#0b1020" stroke="#38bdf8" stroke-opacity="0.35"/>
+  <text x="57" y="143" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#e2e8f0">成组信号计算 (46 组归档)</text>
+  <text x="347" y="143" text-anchor="end" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="11.2" font-weight="800" fill="#bae6fd">424.74 → 302.24 ms</text>
+  <rect x="57" y="151" width="290" height="5" rx="2.5" fill="#1e293b"/>
+  <rect x="57" y="151" width="205" height="5" rx="2.5" fill="#38bdf8"/>
+  <text x="57" y="170" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="11" fill="#94a3b8">-28.84% · 成交一致</text>
+  <rect x="47" y="187" width="310" height="55" rx="9" fill="#0b1020" stroke="#38bdf8" stroke-opacity="0.35"/>
+  <text x="57" y="206" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#e2e8f0">经历反馈流式读取峰值</text>
+  <text x="347" y="206" text-anchor="end" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="11.2" font-weight="800" fill="#bae6fd">157.15 → 34.83 MiB</text>
+  <rect x="57" y="214" width="290" height="5" rx="2.5" fill="#1e293b"/>
+  <rect x="57" y="214" width="63" height="5" rx="2.5" fill="#38bdf8"/>
+  <text x="57" y="233" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="11" fill="#94a3b8">-77.83% · 逐条核验</text>
+  <rect x="47" y="250" width="310" height="55" rx="9" fill="#0b1020" stroke="#38bdf8" stroke-opacity="0.35"/>
+  <text x="57" y="269" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#e2e8f0">暂停合成切户 DOM 观察</text>
+  <text x="347" y="269" text-anchor="end" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="11.2" font-weight="800" fill="#bae6fd">268 → 54 ms (p50)</text>
+  <rect x="57" y="277" width="290" height="5" rx="2.5" fill="#1e293b"/>
+  <rect x="57" y="277" width="58" height="5" rx="2.5" fill="#38bdf8"/>
+  <text x="57" y="296" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="11" fill="#94a3b8">非光栅/非实盘延迟</text>
+  <rect x="392" y="58" width="336" height="264" rx="15" fill="#2c2012" fill-opacity="0.82" stroke="#fbbf24" stroke-opacity="0.72" stroke-width="1.6"/>
+  <g transform="translate(407 72) scale(1.0)" fill="none" stroke="#fbbf24" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="14" rx="2.5"/><path d="M3.5 13h17M7.5 16h.01M11 16h5.5"/></g>
+  <text x="438" y="90" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="16.5" font-weight="800" fill="#f8fafc">无损归档与遥测轮转</text>
+  <text x="438" y="108" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="11" font-weight="700" fill="#fbbf24">隔离账本与随包实测</text>
+  <rect x="405" y="124" width="310" height="55" rx="9" fill="#0b1020" stroke="#fbbf24" stroke-opacity="0.35"/>
+  <text x="415" y="143" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#e2e8f0">分段无损归档 + 目录压缩</text>
+  <text x="705" y="143" text-anchor="end" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="11.2" font-weight="800" fill="#fde68a">累计减占 176 GB+</text>
+  <rect x="415" y="151" width="290" height="5" rx="2.5" fill="#1e293b"/>
+  <rect x="415" y="151" width="249" height="5" rx="2.5" fill="#fbbf24"/>
+  <text x="415" y="170" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="11" fill="#94a3b8">完整保留恢复核验链</text>
+  <rect x="405" y="187" width="310" height="55" rx="9" fill="#0b1020" stroke="#fbbf24" stroke-opacity="0.35"/>
+  <text x="415" y="206" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#e2e8f0">过期合成遥测启动回收</text>
+  <text x="705" y="206" text-anchor="end" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="11.2" font-weight="800" fill="#fde68a">16.8 MB → 24 KiB</text>
+  <rect x="415" y="214" width="290" height="5" rx="2.5" fill="#1e293b"/>
+  <rect x="415" y="214" width="43" height="5" rx="2.5" fill="#fbbf24"/>
+  <text x="415" y="233" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="11" fill="#94a3b8">integrity_check=ok</text>
+  <rect x="405" y="250" width="310" height="55" rx="9" fill="#0b1020" stroke="#fbbf24" stroke-opacity="0.35"/>
+  <text x="415" y="269" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#e2e8f0">默认 50,000 条上限轮转</text>
+  <text x="705" y="269" text-anchor="end" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="11.2" font-weight="800" fill="#fde68a">WAL 归 0 B · +45 KiB</text>
+  <rect x="415" y="277" width="290" height="5" rx="2.5" fill="#1e293b"/>
+  <rect x="415" y="277" width="92" height="5" rx="2.5" fill="#fbbf24"/>
+  <text x="415" y="296" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="11" fill="#94a3b8">55k+10k 跨重启续写</text>
+  <rect x="750" y="58" width="336" height="264" rx="15" fill="#21163b" fill-opacity="0.82" stroke="#c084fc" stroke-opacity="0.72" stroke-width="1.6"/>
+  <g transform="translate(765 72) scale(1.0)" fill="none" stroke="#c084fc" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M8.5 12.3l2.4 2.4 4.8-5"/></g>
+  <text x="796" y="90" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="16.5" font-weight="800" fill="#f8fafc">打包桌面与诚实边界</text>
+  <text x="796" y="108" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="11" font-weight="700" fill="#c084fc">精确安装包 ABBA 对照</text>
+  <rect x="763" y="124" width="310" height="55" rx="9" fill="#0b1020" stroke="#c084fc" stroke-opacity="0.35"/>
+  <text x="773" y="143" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#e2e8f0">48 次窗口恢复/隐藏循环</text>
+  <text x="1063" y="143" text-anchor="end" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="11.2" font-weight="800" fill="#e9d5ff">48 / 48 零残留退出</text>
+  <rect x="773" y="151" width="290" height="5" rx="2.5" fill="#1e293b"/>
+  <rect x="773" y="151" width="290" height="5" rx="2.5" fill="#c084fc"/>
+  <text x="773" y="170" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="11" fill="#94a3b8">退出后 24 KiB / 0 B</text>
+  <rect x="763" y="187" width="310" height="55" rx="9" fill="#0b1020" stroke="#c084fc" stroke-opacity="0.35"/>
+  <text x="773" y="206" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#e2e8f0">v2.0.33→34 故障注入回滚</text>
+  <text x="1063" y="206" text-anchor="end" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="11.2" font-weight="800" fill="#e9d5ff">1,808 文件逐一恢复</text>
+  <rect x="773" y="214" width="290" height="5" rx="2.5" fill="#1e293b"/>
+  <rect x="773" y="214" width="290" height="5" rx="2.5" fill="#c084fc"/>
+  <text x="773" y="233" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="11" fill="#94a3b8">配置与数据标记完好</text>
+  <rect x="763" y="250" width="310" height="55" rx="9" fill="#0b1020" stroke="#c084fc" stroke-opacity="0.35"/>
+  <text x="773" y="269" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#e2e8f0">ABBA 稳态内存与整体响应</text>
+  <text x="1063" y="269" text-anchor="end" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="11.2" font-weight="800" fill="#e9d5ff">未宣称稳态改善</text>
+  <rect x="773" y="277" width="290" height="5" rx="2.5" fill="#1e293b"/>
+  <rect x="773" y="277" width="139" height="5" rx="2.5" fill="#c084fc"/>
+  <text x="773" y="296" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="11" fill="#94a3b8">候选待人工托盘见证</text>
+</svg>

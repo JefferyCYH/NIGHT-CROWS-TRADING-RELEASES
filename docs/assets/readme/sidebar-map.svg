@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="358" viewBox="0 0 1120 358" role="img" aria-labelledby="title desc">
+  <title id="title">夜鸦左栏四组十路由全景</title>
+  <desc id="desc">看盘、策略研究、监控、系统四组共十个原生工作区路由与双套皮肤。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1120" y2="358" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.52" stop-color="#13142b"/>
+      <stop offset="1" stop-color="#221538"/>
+    </linearGradient>
+    <linearGradient id="rail" x1="30" y1="0" x2="1090" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#34f5c5"/>
+      <stop offset="0.3" stop-color="#38bdf8"/>
+      <stop offset="0.62" stop-color="#c084fc"/>
+      <stop offset="0.84" stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#fb7185"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#a78bfa" stroke-opacity="0.1"/>
+    </pattern>
+  </defs>
+  <rect x="1" y="1" width="1118" height="356" rx="20" fill="url(#bg)" stroke="#6d569e" stroke-opacity="0.7" stroke-width="1.6"/>
+  <rect x="2" y="2" width="1116" height="354" rx="19" fill="url(#grid)" opacity="0.85"/>
+  <path d="M28 2H1092" stroke="url(#rail)" stroke-width="2.4"/>
+  <text x="34" y="38" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="13" font-weight="700" letter-spacing="1.5" fill="#cbd5e1">NIGHT CROWS  /  4 GROUPS × 10 WORKSPACE ROUTES</text>
+  <rect x="946" y="20" width="140" height="24" rx="12" fill="#21163b" stroke="#c084fc" stroke-opacity="0.75"/>
+  <text x="1016.0" y="36" text-anchor="middle" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="11" font-weight="700" letter-spacing="0.8" fill="#e9d5ff">SIDEBAR TOPOLOGY</text>
+  <rect x="34" y="58" width="236" height="280" rx="16" fill="#12172b" stroke="#8b5cf6" stroke-opacity="0.65" stroke-width="1.6"/>
+  <g transform="translate(50 74) scale(1.0)" fill="none" stroke="#c084fc" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="4.5" width="17" height="15" rx="2.5"/><path d="M3.5 9h17M7 6.8h.01M10 6.8h.01"/></g>
+  <text x="82" y="92" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="16.5" font-weight="800" fill="#f8fafc">左栏工作区导航</text>
+  <text x="50" y="118" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="12" font-weight="700" fill="#34f5c5">182px 展开  ↔  68px 紧凑</text>
+  <text x="50" y="140" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12.5" fill="#cbd5e1">支持键盘焦点切换与分组收折</text>
+  <path d="M50 156h204" stroke="#334155" stroke-width="1"/>
+  <rect x="50" y="168" width="204" height="68" rx="11" fill="#1e1638" stroke="#c084fc" stroke-opacity="0.55"/>
+  <g transform="translate(62 179) scale(0.9167)" fill="none" stroke="#f472b6" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 1 0 0 18h1.5a2.5 2.5 0 0 0 0-5H12a2 2 0 0 1 0-4h4.5A3.5 3.5 0 0 0 20 8.5C20 5.5 16.4 3 12 3z"/><circle cx="8" cy="10" r="1"/><circle cx="11" cy="7.5" r="1"/><circle cx="7.5" cy="14" r="1"/></g>
+  <text x="90" y="194" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="13.5" font-weight="700" fill="#fdf2f8">双套皮肤一键切换</text>
+  <text x="62" y="215" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12" fill="#e9d5ff">夜鸦量化终端  ↔  简洁上班模式</text>
+  <text x="62" y="230" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="10.5" fill="#cbd5e1">localStorage: aquant-ui-layout-v1</text>
+  <rect x="50" y="248" width="204" height="74" rx="11" fill="#0f2926" stroke="#34f5c5" stroke-opacity="0.5"/>
+  <text x="64" y="270" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12.5" font-weight="700" fill="#a7f3d0">● 公开版 v2.0.33 已含主干</text>
+  <text x="64" y="291" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12.5" font-weight="700" fill="#fde68a">◆ 源码候选 标注增量分支</text>
+  <text x="64" y="311" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="11.5" fill="#cbd5e1">切换皮肤不改账户、策略与权限</text>
+  <rect x="292" y="58" width="794" height="62" rx="13" fill="#11182c" stroke="#34f5c5" stroke-opacity="0.55" stroke-width="1.3"/>
+  <text x="308" y="83" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12.5" font-weight="800" fill="#34f5c5">看盘 · MARKET</text>
+  <path d="M270 89h22" stroke="#34f5c5" stroke-opacity="0.65" stroke-width="1.6"/>
+  <rect x="442" y="66" width="150" height="46" rx="9" fill="#0f2926" stroke="#34f5c5" stroke-opacity="0.6"/>
+  <text x="452" y="84" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="11" font-weight="700" fill="#34f5c5">/agent</text>
+  <text x="506" y="84" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12.2" font-weight="700" fill="#f8fafc">指挥台</text>
+  <text x="452" y="102" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="10.8" fill="#cbd5e1">引擎/脉搏/贡献/未交易</text>
+  <rect x="600" y="66" width="150" height="46" rx="9" fill="#2c2012" stroke="#fbbf24" stroke-opacity="0.6"/>
+  <text x="610" y="84" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="11" font-weight="700" fill="#fbbf24">/market</text>
+  <text x="664" y="84" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12.2" font-weight="700" fill="#f8fafc">市场总览</text>
+  <text x="610" y="102" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="10.8" fill="#cbd5e1">广度/量比◆/连板◆/健康</text>
+  <rect x="758" y="66" width="150" height="46" rx="9" fill="#0f2926" stroke="#34f5c5" stroke-opacity="0.6"/>
+  <text x="768" y="84" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="11" font-weight="700" fill="#34f5c5">/radar</text>
+  <text x="822" y="84" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12.2" font-weight="700" fill="#f8fafc">机会雷达</text>
+  <text x="768" y="102" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="10.8" fill="#cbd5e1">综合分 + 放量突破双轨</text>
+  <rect x="916" y="66" width="150" height="46" rx="9" fill="#2c2012" stroke="#fbbf24" stroke-opacity="0.6"/>
+  <text x="926" y="84" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="11" font-weight="700" fill="#fbbf24">/stk</text>
+  <text x="980" y="84" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12.2" font-weight="700" fill="#f8fafc">自选与个股</text>
+  <text x="926" y="102" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="10.8" fill="#cbd5e1">研究免启Agent/财务快照◆</text>
+  <rect x="292" y="132" width="794" height="62" rx="13" fill="#11182c" stroke="#c084fc" stroke-opacity="0.55" stroke-width="1.3"/>
+  <text x="308" y="157" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12.5" font-weight="800" fill="#c084fc">策略研究 · LAB</text>
+  <path d="M270 163h22" stroke="#c084fc" stroke-opacity="0.65" stroke-width="1.6"/>
+  <rect x="442" y="140" width="150" height="46" rx="9" fill="#21163b" stroke="#c084fc" stroke-opacity="0.6"/>
+  <text x="452" y="158" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="11" font-weight="700" fill="#c084fc">/lab</text>
+  <text x="506" y="158" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12.2" font-weight="700" fill="#f8fafc">策略与模拟</text>
+  <text x="452" y="176" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="10.8" fill="#cbd5e1">因子/论文/影子准入对照</text>
+  <rect x="600" y="140" width="150" height="46" rx="9" fill="#21163b" stroke="#c084fc" stroke-opacity="0.6"/>
+  <text x="610" y="158" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="11" font-weight="700" fill="#c084fc">/single</text>
+  <text x="664" y="158" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12.2" font-weight="700" fill="#f8fafc">单股 Agent</text>
+  <text x="610" y="176" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="10.8" fill="#cbd5e1">底仓/可卖量/量价做 T</text>
+  <rect x="758" y="140" width="150" height="46" rx="9" fill="#21163b" stroke="#c084fc" stroke-opacity="0.6"/>
+  <text x="768" y="158" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="11" font-weight="700" fill="#c084fc">/learn</text>
+  <text x="822" y="158" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12.2" font-weight="700" fill="#f8fafc">模型与学习</text>
+  <text x="768" y="176" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="10.8" fill="#cbd5e1">收盘5·15·30m经历闭环</text>
+  <rect x="916" y="140" width="150" height="46" rx="9" fill="#21163b" stroke="#c084fc" stroke-opacity="0.6"/>
+  <text x="926" y="158" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="11" font-weight="700" fill="#c084fc">/jr</text>
+  <text x="980" y="158" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12.2" font-weight="700" fill="#f8fafc">决策档案柜</text>
+  <text x="926" y="176" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="10.8" fill="#cbd5e1">冻结输入与历史回放</text>
+  <rect x="292" y="206" width="794" height="62" rx="13" fill="#11182c" stroke="#fbbf24" stroke-opacity="0.55" stroke-width="1.3"/>
+  <text x="308" y="231" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12.5" font-weight="800" fill="#fbbf24">监控 · MONITOR</text>
+  <path d="M270 237h22" stroke="#fbbf24" stroke-opacity="0.65" stroke-width="1.6"/>
+  <rect x="442" y="214" width="632" height="46" rx="9" fill="#2c2012" stroke="#fbbf24" stroke-opacity="0.6"/>
+  <text x="456" y="232" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="11.5" font-weight="700" fill="#fbbf24">/mon</text>
+  <text x="500" y="232" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#f8fafc">盯盘预警与统一风险监控中心 ◆</text>
+  <text x="456" y="250" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="11.5" fill="#cbd5e1">自选异动转个股研究 · 持仓风险聚合（源码候选）· 严格区分未触发 / 缺数据 / 未配置</text>
+  <rect x="292" y="278" width="794" height="62" rx="13" fill="#11182c" stroke="#38bdf8" stroke-opacity="0.55" stroke-width="1.3"/>
+  <text x="308" y="303" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12.5" font-weight="800" fill="#38bdf8">系统 · SYSTEM</text>
+  <path d="M270 309h22" stroke="#38bdf8" stroke-opacity="0.65" stroke-width="1.6"/>
+  <rect x="442" y="286" width="632" height="46" rx="9" fill="#0f2438" stroke="#38bdf8" stroke-opacity="0.6"/>
+  <text x="456" y="304" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="11.5" font-weight="700" fill="#38bdf8">/set</text>
+  <text x="500" y="304" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#f8fafc">系统连接 · 本机备份 · 演示 · 皮肤</text>
+  <text x="456" y="322" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="11.5" fill="#cbd5e1">行情与模型配置 · 完整数据备份 · 登录前固定四步无账号演示 · 原版/上班模式切换</text>
+</svg>

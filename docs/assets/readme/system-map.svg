@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="468" viewBox="0 0 1120 468" role="img" aria-labelledby="title desc">
+  <title id="title">夜鸦系统架构与单向证据数据流</title>
+  <desc id="desc">桌面工作区、独立报价研究进程、受约束模拟引擎与本机只读证据档案流向。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1120" y2="468" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.52" stop-color="#13142b"/>
+      <stop offset="1" stop-color="#221538"/>
+    </linearGradient>
+    <linearGradient id="rail" x1="30" y1="0" x2="1090" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#34f5c5"/>
+      <stop offset="0.3" stop-color="#38bdf8"/>
+      <stop offset="0.62" stop-color="#c084fc"/>
+      <stop offset="0.84" stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#fb7185"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#a78bfa" stroke-opacity="0.1"/>
+    </pattern>
+  </defs>
+  <rect x="1" y="1" width="1118" height="466" rx="20" fill="url(#bg)" stroke="#6d569e" stroke-opacity="0.7" stroke-width="1.6"/>
+  <rect x="2" y="2" width="1116" height="464" rx="19" fill="url(#grid)" opacity="0.85"/>
+  <path d="M28 2H1092" stroke="url(#rail)" stroke-width="2.4"/>
+  <text x="34" y="38" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="13" font-weight="700" letter-spacing="1.5" fill="#cbd5e1">NIGHT CROWS  /  ARCHITECTURE &amp; DATA FLOW</text>
+  <rect x="863" y="20" width="223" height="24" rx="12" fill="#0f2438" stroke="#38bdf8" stroke-opacity="0.75"/>
+  <text x="974.5" y="36" text-anchor="middle" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="11" font-weight="700" letter-spacing="0.8" fill="#bae6fd">LOCAL-FIRST · ONE-WAY AUDIT</text>
+  <rect x="34" y="68" width="254" height="132" rx="15" fill="#0f2926" fill-opacity="0.82" stroke="#34f5c5" stroke-opacity="0.72" stroke-width="1.6"/>
+  <g transform="translate(50 84) scale(1.0833)" fill="none" stroke="#34f5c5" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="4.5" width="17" height="15" rx="2.5"/><path d="M3.5 9h17M7 6.8h.01M10 6.8h.01"/></g>
+  <text x="86" y="102" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="12" font-weight="700" fill="#34f5c5">WEBVIEW + LOCAL AUTH</text>
+  <text x="50" y="134" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="18.5" font-weight="800" fill="#f8fafc">桌面工作区与双皮肤</text>
+  <text x="50" y="159" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12.5" fill="#d1fae5">127.0.0.1 会话鉴权 · 浏览不启 Agent</text>
+  <text x="50" y="180" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12" fill="#a7f3d0">研究通过后仍需人工或显式门槛确认</text>
+  <rect x="34" y="220" width="254" height="140" rx="15" fill="#0f2438" fill-opacity="0.85" stroke="#38bdf8" stroke-opacity="0.72" stroke-width="1.6"/>
+  <g transform="translate(50 236) scale(1.0833)" fill="none" stroke="#38bdf8" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6m-5 0v5.2L5.2 17A2.2 2.2 0 0 0 7.1 20h9.8a2.2 2.2 0 0 0 1.9-3L14 8.2V3"/><path d="M7.5 14.5h9"/></g>
+  <text x="86" y="254" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="12" font-weight="700" fill="#38bdf8">QUOTE &amp; RESEARCH WORKERS</text>
+  <text x="50" y="286" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="18.5" font-weight="800" fill="#f8fafc">独立报价与研究进程</text>
+  <text x="50" y="311" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12.5" fill="#e0f2fe">公开展示源 · 区分源时间与接收时间</text>
+  <text x="50" y="333" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12" fill="#bae6fd">固定因子 / AI 论文 pypdf / 可选 PyTorch</text>
+  <path d="M288 134h46m-6-5l6 5-6 5M288 286h46m-6-5l6 5-6 5" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="338" y="64" width="408" height="296" rx="18" fill="#171631" stroke="#a855f7" stroke-opacity="0.8" stroke-width="1.8"/>
+  <g transform="translate(358 80) scale(1.1667)" fill="none" stroke="#fbbf24" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5.5c0 4.6-2.9 7.9-7 9.5-4.1-1.6-7-4.9-7-9.5V6l7-3z"/><path d="M9.2 12.2l2 2 3.8-4"/></g>
+  <text x="396" y="99" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="13" font-weight="700" fill="#fbbf24">CONSTRAINED PAPER &amp; GATE ENGINE</text>
+  <text x="358" y="124" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="16" font-weight="800" fill="#f8fafc">受约束模拟与影子准入内核（交易不等待模型网络）</text>
+  <rect x="358" y="138" width="368" height="62" rx="11" fill="#0f2926" stroke="#34f5c5" stroke-opacity="0.5"/>
+  <text x="374" y="164" font-family="Bahnschrift, 'Trebuchet MS', 'Segoe UI', system-ui, sans-serif" font-size="17" font-weight="800" fill="#34f5c5">01</text>
+  <text x="406" y="164" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="15" font-weight="700" fill="#ecfdf5">冻结轮次输入与模型原件哈希</text>
+  <text x="406" y="186" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12" fill="#a7f3d0">锁定行情快照、规则版本、论文片段与输入/回复校验指纹</text>
+  <rect x="358" y="210" width="368" height="62" rx="11" fill="#0f2438" stroke="#38bdf8" stroke-opacity="0.5"/>
+  <text x="374" y="236" font-family="Bahnschrift, 'Trebuchet MS', 'Segoe UI', system-ui, sans-serif" font-size="17" font-weight="800" fill="#38bdf8">02</text>
+  <text x="406" y="236" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="15" font-weight="700" fill="#f0f9ff">独立样本外验证与同组基线对照</text>
+  <text x="406" y="258" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12" fill="#bae6fd">训练 / 验证 / 保留测试隔离 · 影子观察期与准入门槛核验</text>
+  <rect x="358" y="282" width="368" height="62" rx="11" fill="#2c2012" stroke="#fbbf24" stroke-opacity="0.55"/>
+  <text x="374" y="308" font-family="Bahnschrift, 'Trebuchet MS', 'Segoe UI', system-ui, sans-serif" font-size="17" font-weight="800" fill="#fbbf24">03</text>
+  <text x="406" y="308" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="15" font-weight="700" fill="#fffbeb">A 股制度与账户风控硬约束</text>
+  <text x="406" y="330" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12" fill="#fde68a">整手 · T+1 可卖量 · 涨跌停 · 手续费 · 预留现金与弱市仓位</text>
+  <path d="M746 212h48m-6-5l6 5-6 5" fill="none" stroke="#c084fc" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="798" y="96" width="288" height="232" rx="16" fill="#21163b" fill-opacity="0.9" stroke="#c084fc" stroke-opacity="0.82" stroke-width="1.8"/>
+  <g transform="translate(816 114) scale(1.1667)" fill="none" stroke="#c084fc" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="3"/><circle cx="12" cy="12" r="3.5"/><path d="M12 8.5V6m0 12v-2.5M8.5 12H6m12 0h-2.5"/></g>
+  <text x="854" y="133" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="12" font-weight="700" fill="#e9d5ff">SQLITE + SEGMENTED ARCHIVE</text>
+  <text x="816" y="166" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="19.5" font-weight="800" fill="#faf5ff">本机冻结证据档案库</text>
+  <text x="816" y="194" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12.8" fill="#e9d5ff">• 当日纸面意图与未成交拦截原因</text>
+  <text x="816" y="218" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12.8" fill="#e9d5ff">• 候选 vs 基线影子账本与门槛记录</text>
+  <text x="816" y="242" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12.8" fill="#e9d5ff">• 收盘后 5/15/30m 经历与版本归档</text>
+  <text x="816" y="266" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12.8" fill="#e9d5ff">• 无损分段压缩与崩溃恢复校验链</text>
+  <rect x="816" y="284" width="252" height="28" rx="8" fill="#120d24" stroke="#c084fc" stroke-opacity="0.45"/>
+  <text x="942" y="302.5" text-anchor="middle" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="11.2" font-weight="700" fill="#34f5c5">SINGLE SOURCE OF REPLAY TRUTH</text>
+  <path d="M942 328v48m-5-6l5 6 5-6" fill="none" stroke="#34f5c5" stroke-width="2.2" stroke-dasharray="5 4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="34" y="380" width="1052" height="66" rx="15" fill="#102332" stroke="#38bdf8" stroke-opacity="0.72" stroke-width="1.6"/>
+  <g transform="translate(52 400) scale(1.0833)" fill="none" stroke="#34f5c5" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M3.8 12h16.4M12 3.5c2.5 2.4 3.8 5.4 3.8 8.5s-1.3 6.1-3.8 8.5c-2.5-2.4-3.8-5.4-3.8-8.5S9.5 5.9 12 3.5z"/></g>
+  <text x="88" y="408" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="15.2" font-weight="800" fill="#f0fdfa">单向只读复盘与开放消费层（仅读取已归档证据，不反向触达执行内核）</text>
+  <text x="88" y="431" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12" fill="#bae6fd">本机 HTTP v1（4 条 GET 路由） ·  源码 stdio MCP（隔离副本 4 工具） ·  历史回放（不回填今日数据） ·  AURA 快照解释</text>
+  <rect x="876" y="396" width="192" height="34" rx="10" fill="#2e1421" stroke="#fb7185" stroke-opacity="0.85"/>
+  <text x="972" y="418" text-anchor="middle" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12.2" font-weight="800" fill="#fecdd3">红线：不审批 · 不激活 · 不下单</text>
+</svg>

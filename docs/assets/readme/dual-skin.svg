@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="268" viewBox="0 0 1120 268" role="img" aria-labelledby="title desc">
+  <title id="title">夜鸦双套工作台皮肤：深空量化终端与简洁上班模式</title>
+  <desc id="desc">支持原版夜鸦终端与简洁上班模式一键无损切换，偏好仅存本机。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1120" y2="268" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.52" stop-color="#13142b"/>
+      <stop offset="1" stop-color="#221538"/>
+    </linearGradient>
+    <linearGradient id="rail" x1="30" y1="0" x2="1090" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#34f5c5"/>
+      <stop offset="0.3" stop-color="#38bdf8"/>
+      <stop offset="0.62" stop-color="#c084fc"/>
+      <stop offset="0.84" stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#fb7185"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#a78bfa" stroke-opacity="0.1"/>
+    </pattern>
+  </defs>
+  <rect x="1" y="1" width="1118" height="266" rx="20" fill="url(#bg)" stroke="#6d569e" stroke-opacity="0.7" stroke-width="1.6"/>
+  <rect x="2" y="2" width="1116" height="264" rx="19" fill="url(#grid)" opacity="0.85"/>
+  <path d="M28 2H1092" stroke="url(#rail)" stroke-width="2.4"/>
+  <text x="34" y="38" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="13" font-weight="700" letter-spacing="1.5" fill="#cbd5e1">NIGHT CROWS  /  DUAL WORKSPACE SKINS</text>
+  <rect x="868" y="20" width="218" height="24" rx="12" fill="#2d1430" stroke="#f472b6" stroke-opacity="0.75"/>
+  <text x="977.0" y="36" text-anchor="middle" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="11" font-weight="700" letter-spacing="0.8" fill="#fbcfe8">CLASSIC DARK &lt;-&gt; WORK LIGHT</text>
+  <rect x="34" y="58" width="510" height="190" rx="16" fill="#0d1124" stroke="#c084fc" stroke-opacity="0.78" stroke-width="1.6"/>
+  <circle cx="56" cy="78" r="4.5" fill="#fb7185"/><circle cx="71" cy="78" r="4.5" fill="#fbbf24"/><circle cx="86" cy="78" r="4.5" fill="#34f5c5"/>
+  <text x="104" y="82" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="11.5" font-weight="700" fill="#e9d5ff">MODE A · 夜鸦量化终端 (DEFAULT / CLASSIC)</text>
+  <rect x="52" y="96" width="114" height="134" rx="10" fill="#161936" stroke="#8b5cf6" stroke-opacity="0.5"/>
+  <text x="64" y="116" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="11.5" font-weight="800" fill="#34f5c5">182px 展开导览</text>
+  <rect x="62" y="125" width="94" height="20" rx="5" fill="#251a4a"/><text x="70" y="139" font-family="Consolas, monospace" font-size="10.5" fill="#f5d0fe">/agent 指挥台</text>
+  <rect x="62" y="150" width="94" height="20" rx="5" fill="#112928"/><text x="70" y="164" font-family="Consolas, monospace" font-size="10.5" fill="#a7f3d0">/radar 机会雷达</text>
+  <rect x="62" y="175" width="94" height="20" rx="5" fill="#2b1f14"/><text x="70" y="189" font-family="Consolas, monospace" font-size="10.5" fill="#fde68a">/lab 影子准入</text>
+  <text x="64" y="216" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="10.5" fill="#cbd5e1">底栏一键切换模式 →</text>
+  <rect x="178" y="96" width="348" height="134" rx="10" fill="#131830" stroke="#38bdf8" stroke-opacity="0.45"/>
+  <text x="194" y="121" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="14" font-weight="800" fill="#f8fafc">高对比度盯盘 · 脉冲色阶分层</text>
+  <text x="194" y="145" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12" fill="#cbd5e1">• 深空紫黑底色减轻多屏暗光眩光，突出涨跌广度与异动</text>
+  <text x="194" y="167" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12" fill="#cbd5e1">• 青绿 / 紫罗兰 / 琥珀 / 珊瑚红编码信号、研究与风控拦截</text>
+  <rect x="194" y="184" width="32" height="14" rx="4" fill="#34f5c5"/><rect x="232" y="184" width="32" height="14" rx="4" fill="#38bdf8"/><rect x="270" y="184" width="32" height="14" rx="4" fill="#c084fc"/><rect x="308" y="184" width="32" height="14" rx="4" fill="#fbbf24"/><rect x="346" y="184" width="32" height="14" rx="4" fill="#fb7185"/>
+  <text x="194" y="216" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="11" fill="#a7f3d0">html: classic · 原版默认保留全部量化密度</text>
+  <circle cx="560" cy="153" r="18" fill="#21163b" stroke="#f472b6" stroke-width="1.6"/>
+  <g transform="translate(549 142) scale(0.9167)" fill="none" stroke="#fbcfe8" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 11a8 8 0 0 0-14.5-4.5L4 8m0-4v4h4"/><path d="M4 13a8 8 0 0 0 14.5 4.5L20 16m0 4v-4h-4"/></g>
+  <rect x="576" y="58" width="510" height="190" rx="16" fill="#f8fafc" stroke="#818cf8" stroke-opacity="0.9" stroke-width="1.8"/>
+  <circle cx="598" cy="78" r="4.5" fill="#f43f5e"/><circle cx="613" cy="78" r="4.5" fill="#f59e0b"/><circle cx="628" cy="78" r="4.5" fill="#10b981"/>
+  <text x="646" y="82" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="11.5" font-weight="700" fill="#312e81">MODE B · 简洁上班模式 (CLEAN WORKSPACE)</text>
+  <rect x="594" y="96" width="84" height="134" rx="10" fill="#eef2f6" stroke="#cbd5e1" stroke-width="1.2"/>
+  <text x="604" y="116" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="11" font-weight="800" fill="#334155">68px 紧凑</text>
+  <rect x="606" y="126" width="60" height="22" rx="6" fill="#ffffff" stroke="#cbd5e1"/><text x="616" y="141" font-family="Consolas, monospace" font-size="10.5" font-weight="700" fill="#0f172a">主页</text>
+  <rect x="606" y="154" width="60" height="22" rx="6" fill="#e0e7ff" stroke="#818cf8"/><text x="616" y="169" font-family="Consolas, monospace" font-size="10.5" font-weight="700" fill="#3730a3">研判</text>
+  <text x="605" y="215" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#475569">左下齿轮切回</text>
+  <rect x="690" y="96" width="378" height="134" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <text x="706" y="121" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="14" font-weight="800" fill="#0f172a">低视觉干扰办公 · 23 枚静态矢量图标</text>
+  <text x="706" y="145" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12" fill="#334155">• 纸感浅灰白界面，适配日常办公桌面阅读与多行对话研判</text>
+  <text x="706" y="167" font-family="'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'PingFang SC', 'Segoe UI', sans-serif" font-size="12" fill="#334155">• 切换皮肤不改账户、策略、模型密钥或只读研判权限边界</text>
+  <rect x="706" y="182" width="350" height="22" rx="6" fill="#eef2ff" stroke="#a5b4fc"/>
+  <text x="714" y="197" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="10.1" font-weight="700" fill="#3730a3">localStorage: aquant-ui-layout-v1 · 18 组浏览器检查通过</text>
+  <text x="706" y="220" font-family="'Cascadia Mono', Consolas, 'SFMono-Regular', monospace" font-size="10.5" fill="#64748b">html[data-ui="codex"] · 保持夜鸦身份与只读研判边界</text>
+</svg>
